@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		905679B81EB1CF5300A2AD54 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905679B31EB1CF5300A2AD54 /* UIColor.swift */; };
+		905679B91EB1CF5300A2AD54 /* DateFormatterTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905679B51EB1CF5300A2AD54 /* DateFormatterTool.swift */; };
+		905679BA1EB1CF5300A2AD54 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905679B71EB1CF5300A2AD54 /* UIView.swift */; };
+		905679BC1EB1D8B400A2AD54 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905679BB1EB1D8B400A2AD54 /* UILabel.swift */; };
+		905679BF1EB1DF1C00A2AD54 /* LogTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905679BE1EB1DF1C00A2AD54 /* LogTool.swift */; };
 		90EB2A0C1EB1CB60006B3100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2A0B1EB1CB60006B3100 /* AppDelegate.swift */; };
 		90EB2A0E1EB1CB60006B3100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2A0D1EB1CB60006B3100 /* ViewController.swift */; };
 		90EB2A111EB1CB60006B3100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EB2A0F1EB1CB60006B3100 /* Main.storyboard */; };
@@ -14,7 +19,6 @@
 		90EB2A161EB1CB60006B3100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EB2A141EB1CB60006B3100 /* LaunchScreen.storyboard */; };
 		90EB2A211EB1CB60006B3100 /* BToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2A201EB1CB60006B3100 /* BToolsTests.swift */; };
 		90EB2A2C1EB1CB60006B3100 /* BToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2A2B1EB1CB60006B3100 /* BToolsUITests.swift */; };
-		90EB2A3B1EB1CBE6006B3100 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2A3A1EB1CBE6006B3100 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		905679B31EB1CF5300A2AD54 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		905679B51EB1CF5300A2AD54 /* DateFormatterTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterTool.swift; sourceTree = "<group>"; };
+		905679B71EB1CF5300A2AD54 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		905679BB1EB1D8B400A2AD54 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		905679BE1EB1DF1C00A2AD54 /* LogTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogTool.swift; sourceTree = "<group>"; };
 		90EB2A081EB1CB60006B3100 /* BTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EB2A0B1EB1CB60006B3100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90EB2A0D1EB1CB60006B3100 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +57,6 @@
 		90EB2A271EB1CB60006B3100 /* BToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EB2A2B1EB1CB60006B3100 /* BToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BToolsUITests.swift; sourceTree = "<group>"; };
 		90EB2A2D1EB1CB60006B3100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90EB2A3A1EB1CBE6006B3100 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		905679B11EB1CF5300A2AD54 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				905679BD1EB1DF1C00A2AD54 /* LogTools */,
+				905679B21EB1CF5300A2AD54 /* ColorTools */,
+				905679B41EB1CF5300A2AD54 /* DateTools */,
+				905679B61EB1CF5300A2AD54 /* ViewTools */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		905679B21EB1CF5300A2AD54 /* ColorTools */ = {
+			isa = PBXGroup;
+			children = (
+				905679B31EB1CF5300A2AD54 /* UIColor.swift */,
+			);
+			path = ColorTools;
+			sourceTree = "<group>";
+		};
+		905679B41EB1CF5300A2AD54 /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				905679B51EB1CF5300A2AD54 /* DateFormatterTool.swift */,
+			);
+			path = DateTools;
+			sourceTree = "<group>";
+		};
+		905679B61EB1CF5300A2AD54 /* ViewTools */ = {
+			isa = PBXGroup;
+			children = (
+				905679B71EB1CF5300A2AD54 /* UIView.swift */,
+				905679BB1EB1D8B400A2AD54 /* UILabel.swift */,
+			);
+			path = ViewTools;
+			sourceTree = "<group>";
+		};
+		905679BD1EB1DF1C00A2AD54 /* LogTools */ = {
+			isa = PBXGroup;
+			children = (
+				905679BE1EB1DF1C00A2AD54 /* LogTool.swift */,
+			);
+			path = LogTools;
+			sourceTree = "<group>";
+		};
 		90EB29FF1EB1CB60006B3100 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +151,7 @@
 		90EB2A0A1EB1CB60006B3100 /* BTools */ = {
 			isa = PBXGroup;
 			children = (
-				90EB2A391EB1CBE6006B3100 /* ViewTools */,
+				905679B11EB1CF5300A2AD54 /* Tools */,
 				90EB2A0B1EB1CB60006B3100 /* AppDelegate.swift */,
 				90EB2A0D1EB1CB60006B3100 /* ViewController.swift */,
 				90EB2A0F1EB1CB60006B3100 /* Main.storyboard */,
@@ -126,14 +178,6 @@
 				90EB2A2D1EB1CB60006B3100 /* Info.plist */,
 			);
 			path = BToolsUITests;
-			sourceTree = "<group>";
-		};
-		90EB2A391EB1CBE6006B3100 /* ViewTools */ = {
-			isa = PBXGroup;
-			children = (
-				90EB2A3A1EB1CBE6006B3100 /* UIView.swift */,
-			);
-			path = ViewTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,8 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				905679BA1EB1CF5300A2AD54 /* UIView.swift in Sources */,
+				905679BF1EB1DF1C00A2AD54 /* LogTool.swift in Sources */,
 				90EB2A0E1EB1CB60006B3100 /* ViewController.swift in Sources */,
-				90EB2A3B1EB1CBE6006B3100 /* UIView.swift in Sources */,
+				905679B81EB1CF5300A2AD54 /* UIColor.swift in Sources */,
+				905679B91EB1CF5300A2AD54 /* DateFormatterTool.swift in Sources */,
+				905679BC1EB1D8B400A2AD54 /* UILabel.swift in Sources */,
 				90EB2A0C1EB1CB60006B3100 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,6 +575,7 @@
 				90EB2A321EB1CB60006B3100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90EB2A331EB1CB60006B3100 /* Build configuration list for PBXNativeTarget "BToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +584,7 @@
 				90EB2A351EB1CB60006B3100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90EB2A361EB1CB60006B3100 /* Build configuration list for PBXNativeTarget "BToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +593,7 @@
 				90EB2A381EB1CB60006B3100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
